@@ -4,15 +4,15 @@ function getElement(id) {
 }
 
 // heart icon functionality
-// const heartIcons = document.getElementsByClassName("heart-icon");
-// for(let heartIcon of heartIcons){
-//     heartIcon.addEventListener("click",function(){
-//         const heart = getElement("heart-count").innerText;
-//         let heartCount = Number(heart);
-//         heartCount++; 
-//         getElement("heart-count").innerText = heartCount;
-//     })
-// }
+const heartIcons = document.getElementsByClassName("heart-icon");
+for(let heartIcon of heartIcons){
+    heartIcon.addEventListener("click",function(){
+        const heart = getElement("heart-count").innerText;
+        let heartCount = Number(heart);
+        heartCount++; 
+        getElement("heart-count").innerText = heartCount;
+    })
+}
 
 // copy btn and count functionality
 // const copyBtns = document.getElementsByClassName("copy-btn");
