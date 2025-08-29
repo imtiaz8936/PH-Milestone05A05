@@ -15,15 +15,15 @@ for(let heartIcon of heartIcons){
 }
 
 // copy btn and count functionality
-// const copyBtns = document.getElementsByClassName("copy-btn");
-// for(let copyBtn of copyBtns){
-//     copyBtn.addEventListener("click",function(){
-//         const copy = getElement("copy-count").innerText;
-//         let copyCount = Number(copy);
-//         copyCount++; 
-//         getElement("copy-count").innerText = copyCount;
-//     })
-// }
+const copyBtns = document.getElementsByClassName("copy-btn");
+for(let copyBtn of copyBtns){
+    copyBtn.addEventListener("click",function(){
+        const copy = getElement("copy-count").innerText;
+        let copyCount = Number(copy);
+        copyCount++; 
+        getElement("copy-count").innerText = copyCount;
+    })
+}
 
 
 
